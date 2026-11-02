@@ -1,0 +1,56 @@
+# ============================================================
+# Project: AI Document RAG System
+# Config Version: 1.0.0
+# ============================================================
+
+# --- HDFS Settings ---
+hdfs:
+  base_path: "/ai_docs"                  # Root path in HDFS
+  raw_path: "/ai_docs/raw"               # Raw downloaded files
+  processed_path: "/ai_docs/processed"   # Cleaned Parquet files
+  chunks_path: "/ai_docs/chunks"         # Chunk Parquet files
+  manifests_path: "/ai_docs/manifests"   # Pipeline manifests
+  namenode_url: "hdfs://localhost:9000"   # Override with env var HDFS_NAMENODE_URL
+
+# --- Qdrant Settings ---
+qdrant:
+  url: "http://localhost:6333"
+  collection: "ai_documents"
+  vector_size: 1024   # BGE-M3 output dimension (fixed)
+  distance: "Cosine"  # Similarity metric
+
+# --- Ollama / Model Settings ---
+models:
+  embedding_model: "bge-m3"              # For embedding chunks and queries
+  chat_model: "qwen3:4b"                 # Start with 4B, upgrade if RAM allows
+  ollama_base_url: "http://localhost:11434"
+  request_timeout: 120                   # Seconds before giving up on LLM call
+
+# --- Chunking Settings ---
+chunking:
+  target_tokens: 600           # Target chunk size (in approx. tokens)
+  max_tokens: 800              # Hard max - split if exceeded
+  overlap_tokens: 75           # Overlap when splitting long sections
+  embed_batch_size: 8          # Embed N chunks per Ollama call
+  # Strategy priority: article/clause boundary → paragraph → sentence
+
+# --- Retrieval Settings ---
+retrieval:
+  top_k: 5                     # Number of chunks to retrieve per query
+  # Available filters: jurisdiction (VN/EU/International/ASEAN), document_id
+
+# --- Collection Settings ---
+collection:
+  sources_csv: "data/sources.csv"
+  request_delay_seconds: 1.0   # Politeness delay between downloads
+  max_retries: 3               # Retry count for failed downloads
+  timeout_seconds: 60          # HTTP request timeout
+
+# --- Pipeline Settings ---
+pipeline:
+  version: "1.0.0"
+  local_raw_path: "data/raw"
+  local_parsed_path: "data/parsed"
+  local_processed_path: "data/processed"
+  local_chunks_path: "data/chunks"
+  local_manifests_path: "data/manifests"

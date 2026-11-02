@@ -1,0 +1,16 @@
+pyspark==3.5.3
+qdrant-client==1.12.1
+ollama==0.4.4
+streamlit==1.41.1
+beautifulsoup4==4.12.3
+pymupdf==1.24.14
+python-docx==1.1.2
+pandas==2.2.3
+pyarrow==18.0.0
+requests==2.32.3
+python-dotenv==1.0.1
+lxml==5.3.0
+pydantic==2.10.3
+tqdm==4.67.1
+pytest==8.3.4
+pyyaml==6.0.2

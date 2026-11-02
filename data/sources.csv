@@ -1,0 +1,23 @@
+document_id,title,jurisdiction,language,document_type,source_url,file_url,notes
+eu_ai_act_2024_1689,"Regulation (EU) 2024/1689 Artificial Intelligence Act",EU,en,regulation,https://eur-lex.europa.eu/eli/reg/2024/1689,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689,Consolidated version
+nist_ai_rmf_1_0,"NIST AI Risk Management Framework 1.0",International,en,framework,https://www.nist.gov/itl/ai-risk-management-framework,https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf,
+nist_ai_rmf_playbook,"NIST AI RMF Playbook",International,en,guideline,https://airc.nist.gov/airmf-resources/playbook/,,HTML format
+nist_gen_ai_profile,"NIST Generative AI Profile",International,en,guideline,https://airc.nist.gov/Docs/1,,
+oecd_ai_principles,"OECD Recommendation on Artificial Intelligence",International,en,recommendation,https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449,,
+unesco_ai_ethics,"UNESCO Recommendation on the Ethics of Artificial Intelligence",International,en,recommendation,https://unesdoc.unesco.org/ark:/48223/pf0000381137,,
+singapore_model_ai_gov,"Singapore Model AI Governance Framework",International,en,framework,https://www.imda.gov.sg/resources/publications,,
+qd_127_2021_ai_strategy,"Quyết định 127/QĐ-TTg Chiến lược quốc gia AI đến 2030",VN,vi,strategy,https://vanban.chinhphu.vn/,,superseded by 1671/2026
+qd_1671_2026_ai_strategy,"Quyết định 1671/QĐ-TTg Chiến lược quốc gia AI mới",VN,vi,strategy,https://vanban.chinhphu.vn/,,Current national AI strategy
+luat_134_2025_ai,"Luật Trí tuệ nhân tạo 2025",VN,vi,law,https://vanban.chinhphu.vn/,,
+luat_60_2024_data,"Luật Dữ liệu 2024",VN,vi,law,https://vanban.chinhphu.vn/,,
+luat_91_2025_personal_data,"Luật Bảo vệ dữ liệu cá nhân 2025",VN,vi,law,https://vanban.chinhphu.vn/,,
+luat_86_2015_information_security,"Luật An toàn thông tin mạng 2015",VN,vi,law,https://vanban.chinhphu.vn/,,
+luat_71_2025_digital_industry,"Luật Công nghiệp công nghệ số 2025",VN,vi,law,https://vanban.chinhphu.vn/,,
+luat_116_2025_cybersecurity,"Luật An ninh mạng 2025 (sửa đổi)",VN,vi,law,https://vanban.chinhphu.vn/,,
+nd_142_2026_ai_implementation,"Nghị định 142/NĐ-CP hướng dẫn thi hành Luật AI",VN,vi,regulation,https://vanban.chinhphu.vn/,,
+nd_356_2025_personal_data,"Nghị định 356/NĐ-CP bảo vệ dữ liệu cá nhân",VN,vi,regulation,https://vanban.chinhphu.vn/,,
+nd_47_2020_data_sharing,"Nghị định 47/NĐ-CP về chia sẻ dữ liệu số",VN,vi,regulation,https://vanban.chinhphu.vn/,,
+qd_749_2020_digital_transformation,"Quyết định 749/QĐ-TTg Chương trình CĐS Quốc gia",VN,vi,strategy,https://vanban.chinhphu.vn/,,
+qd_411_2022_digital_economy,"Quyết định 411/QĐ-TTg Kinh tế số đến 2025",VN,vi,strategy,https://vanban.chinhphu.vn/,,
+qd_942_2021_digital_government,"Quyết định 942/QĐ-TTg Chính phủ số đến 2025",VN,vi,strategy,https://vanban.chinhphu.vn/,,
+qd_06_2022_digital_identity,"Quyết định 06/QĐ-TTg Đề án phát triển dữ liệu dân cư",VN,vi,strategy,https://vanban.chinhphu.vn/,,

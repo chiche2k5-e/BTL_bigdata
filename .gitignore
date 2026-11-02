@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Data directories (raw pipeline data)
+data/raw/*
+!data/raw/.gitkeep
+data/parsed/*
+!data/parsed/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/chunks/*
+!data/chunks/.gitkeep
+
+# PDFs (except in bronze)
+*.pdf
+
+# Models
+models/
+
+# macOS
+.DS_Store
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
